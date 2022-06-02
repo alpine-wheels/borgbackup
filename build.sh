@@ -3,7 +3,7 @@
 set -e
 
 # install dependencies
-apk add --no-cache acl-dev gcc linux-headers lz4-dev musl-dev openssl-dev python3-dev xxhash-deve zstd-dev
+apk add --no-cache acl-dev gcc linux-headers lz4-dev musl-dev openssl-dev python3-dev xxhash-dev zstd-dev
 
 pip install pkgconfig
 
